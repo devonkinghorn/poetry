@@ -294,7 +294,7 @@ class Installer:
         r"(?:\+[^\s]+)?"
     )
 
-    BASE_URL = "https://github.com/sdispater/poetry/releases/download/"
+    BASE_URL = "https://github.com/devonkinghorn/poetry/releases/download/"
 
     def __init__(
         self,
