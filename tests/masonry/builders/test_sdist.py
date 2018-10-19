@@ -137,7 +137,7 @@ def test_make_pkg_info():
     p = Parser()
     parsed = p.parsestr(to_str(pkg_info))
 
-    assert parsed["Metadata-Version"] == "2.1"
+    assert parsed["Metadata-Version"] == "2.0"
     assert parsed["Name"] == "my-package"
     assert parsed["Version"] == "1.2.3"
     assert parsed["Summary"] == "Some description."

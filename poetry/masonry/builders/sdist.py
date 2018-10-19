@@ -42,7 +42,7 @@ setup(**setup_kwargs)
 
 
 PKG_INFO = """\
-Metadata-Version: 2.1
+Metadata-Version: 2.0
 Name: {name}
 Version: {version}
 Summary: {summary}

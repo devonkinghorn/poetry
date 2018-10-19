@@ -296,7 +296,7 @@ class WheelBuilder(Builder):
         """
         Write out metadata in the 2.x format (email like)
         """
-        fp.write("Metadata-Version: 2.1\n")
+        fp.write("Metadata-Version: 2.0\n")
         fp.write("Name: {}\n".format(self._meta.name))
         fp.write("Version: {}\n".format(self._meta.version))
         fp.write("Summary: {}\n".format(self._meta.summary))
