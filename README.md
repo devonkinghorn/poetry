@@ -1,3 +1,29 @@
+# This is a fork for an artifactory bug.
+
+This is a fork of poetry as a workaround for an `artifactory` bug.
+Artifactory's pypi repository will not accept `Metadata-Version: 2.1`.
+So sets `Metadata-Version` to `2.0`.
+I have not tested extensively but the minor version downgrade should work for most or all use cases.
+
+## Installation
+
+The original build script for `poetry` does not work for this fork. 
+You will need to install with pip.
+
+```
+pip install a-poem
+```
+
+## Usage
+
+The cli command has changed from `poetry` to `a-poem`.
+
+i.e.
+```
+a-poem install x
+```
+
+
 # Poetry: Dependency Management for Python
 
 ![Poetry build status](https://travis-ci.org/sdispater/poetry.svg)

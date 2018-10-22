@@ -5,7 +5,7 @@ from poetry.version.helpers import format_python_constraint
 
 class Metadata:
 
-    metadata_version = "2.1"
+    metadata_version = "2.0"
     # version 1.0
     name = None
     version = None
